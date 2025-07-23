@@ -3,7 +3,7 @@ A memory cache server designed to support MCP API clients. Its core goal is to r
 
 ## 一、项目简介
 
-**ib-mcp-cache-server** 是一个为支持 MCP API 客户端设计的内存缓存服务器。其核心目标是通过高效缓存数据，减少语言模型交互过程中的 token 消耗，从而提升性能和响应速度。该服务支持任何基于 MCP 协议的客户端和模型。
+**mcp-memory-cache** 是一个为支持 MCP API 客户端设计的内存缓存服务器。其核心目标是通过高效缓存数据，减少语言模型交互过程中的 token 消耗，从而提升性能和响应速度。该服务支持任何基于 MCP 协议的客户端和模型。
 
 ## 二、技术架构
 ### 2.1 核心模块
@@ -107,10 +107,4 @@ A memory cache server designed to support MCP API clients. Its core goal is to r
 
 ## 六、结论
 
-ib-mcp-cache-server 能有效降低 token 消耗、提升响应速度，并具备良好的配置灵活性和稳定性。
-
----
-
-**参考资料：**  
-- [ib-mcp-cache-server GitHub 仓库](https://github.com/ibproduct/ib-mcp-cache-server)
-
+mcp-memory-cache 能有效降低 token 消耗、提升响应速度，并具备良好的配置灵活性和稳定性。
