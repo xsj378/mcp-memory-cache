@@ -5,6 +5,28 @@ A memory cache server designed to support MCP API clients. Its core goal is to r
 
 **mcp-memory-cache** 是一个为支持 MCP API 客户端设计的内存缓存服务器。其核心目标是通过高效缓存数据，减少语言模型交互过程中的 token 消耗，从而提升性能和响应速度。该服务支持任何基于 MCP 协议的客户端和模型。
 
+下载到本地：
+```
+git clone git@github.com:xsj378/mcp-memory-cache.git
+cd mcp-memory-cache
+```
+
+下载依赖：
+```
+npm install
+npm run build
+```
+
+在cherry stdio中配置：
+```
+"memory-cache": {
+    "command": "node",
+    "args": [
+      "/<path>/build/index.js"
+    ]
+}
+```
+
 ## 二、技术架构
 ### 2.1 核心模块
 1.CacheManager（CacheManager.ts）
