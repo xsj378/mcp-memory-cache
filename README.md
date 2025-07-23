@@ -31,12 +31,12 @@ A memory cache server designed to support MCP API clients. Its core goal is to r
 
 ### 2.2 调用链
 <p align="center">
-  <img src="调用链.png" alt="调用链" />
+  <img src="./doc/调用链.png" alt="调用链" width="50%" height="50%"/>
 </p>
 
 ### 2.3 类图
 <p align="center">
-  <img src="类图1.png" alt="类图" />
+  <img src="./doc/类图1.png" alt="类图" width="35%" height="35%"/>
 </p>
 
 ## 三、评估目标
