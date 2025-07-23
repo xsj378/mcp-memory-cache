@@ -69,7 +69,9 @@ A memory cache server designed to support MCP API clients. Its core goal is to r
 
    End of test file.
    ```
-   [](https://github.com/ibproduct/ib-mcp-cache-server)
+   [分析测试文件](./分析测试文件.md)
+  
+   [读取测试文件](./读取测试文件.md)
 - 输入：读取并分析这个文件，告诉我这个文件是做什么的，用mcp缓存结果。最后告诉我token消耗。
 - 模型选择：Deepseek-V3
 
