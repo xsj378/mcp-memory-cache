@@ -22,3 +22,4 @@ export interface CacheConfig {
   checkInterval?: number;
   statsInterval?: number;
 }
+
