@@ -517,3 +517,4 @@ const PORT = process.env.PORT ? parseInt(process.env.PORT) : 3000;
 app.listen(PORT, () => {
   console.log(`SSE/HTTP server listening on http://localhost:${PORT}`);
 });
+
